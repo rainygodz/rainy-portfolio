@@ -1,0 +1,21 @@
+/* project page media querries */
+@media only screen and (max-width: 880px) {
+  .project {
+    padding: 20px 40px;
+  }
+
+  .project-images img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .project {
+    padding: 20px 30px;
+  }
+
+  .description {
+    min-width: 100%;
+    max-width: none;
+  }
+}
