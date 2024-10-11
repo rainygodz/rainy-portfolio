@@ -266,3 +266,56 @@ footer {
   min-width: 400px;
   max-width: 600px;
 }
+
+/* Media queries */
+
+/* for max-width: 920px */
+@media only screen and (max-width: 920px) {
+  .about {
+    flex-direction: column-reverse;
+  }
+
+  .projects-cards {
+    flex-direction: column;
+  }
+
+  .projects {
+    padding: 30px 0;
+  }
+
+  .project-card {
+    width: 400px;
+  }
+
+  .project-card:hover {
+    border: none;
+  }
+
+  .project-card img {
+    width: 400px;
+    height: auto;
+  }
+}
+
+/* for max-width: 420px */
+@media only screen and (max-width: 420px) {
+  .main-container {
+    padding: 0 15px;
+  }
+
+  .projects {
+    padding: 20px 0;
+  }
+  .projects-cards {
+    padding-left: 26px;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+
+  .project-card img {
+    width: 350px;
+    height: auto;
+  }
+}
