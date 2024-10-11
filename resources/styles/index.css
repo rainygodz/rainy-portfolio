@@ -41,3 +41,58 @@ header {
   text-decoration: underline;
   text-underline-offset: 5px;
 }
+
+/* about me */
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 100px 0;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.about-image img {
+  border-radius: 12px;
+}
+
+/* change font button */
+button#change-font {
+  align-items: center;
+  appearance: button;
+  background-color: #483285;
+  border-radius: 8px;
+  border-style: none;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 10px 21px;
+  text-align: center;
+  text-transform: none;
+  transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button#change-font:active {
+  background-color: rgb(64, 46, 114);
+}
+
+button#change-font:hover {
+  background-color: rgb(58, 41, 104);
+}
